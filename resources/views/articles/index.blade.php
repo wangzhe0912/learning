@@ -15,6 +15,7 @@
                 <a href="{{ url('/articles', $article->id) }}">{{ $article->title }}</a>
             </h2>
             <div class="body">{{ $article->body }}</div>
+			<div class="published_at">{{ $article->published_at }}</div>
         </article>
     @endforeach
 @stop
